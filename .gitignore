@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Local data & auth
+store/
+data/
+logs/
+
+# Nested vault repo (Obsidian sync)
+groups/.git
+groups/.gitignore
+
+# Groups - runtime agent data, managed via nested .gitignore files
+groups/
+
+# Secrets
+*.keys.json
+.env
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# Skills system (local per-installation state)
+.nanoclaw/
+
+agents-sdk-docs
+
+# Self-edit worktrees
+.worktrees/
+
+# Test coverage output
+coverage/
+
+# Cloned repos
+arscontexta/
+
+# Paper trading data
+paper-trades.json
+paper-trade-*.txt
+resolved_markets.json

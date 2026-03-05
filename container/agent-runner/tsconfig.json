@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": ".",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true
+  },
+  "include": ["src/**/*", "tools/**/*"],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "tools/trading/execute-trade.ts",
+    "tools/trading/scan-markets.ts",
+    "tools/trading/analyze-opportunity.ts",
+    "tools/trading/strategies/hft-signals.ts"
+  ]
+}
